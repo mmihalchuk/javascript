@@ -1,0 +1,265 @@
+//block number 1
+var a = 15;
+if (a == 0) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 2
+var a = 15;
+if (a > 0) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 3
+var a = 15;
+if (a < 0) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 4
+var a = 15;
+if (a >= 0) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 5
+var a = 15;
+if (a <= 0) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 6
+var a = 15;
+if (a != 0) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 7
+var a = "test";
+if (a == "test") {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 8
+var a = 1;
+if (a === 1) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 9
+var test = true;
+if (test == true) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 10
+var test = false;
+if (test == false) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 11
+var a = 15;
+var b = 25;
+var result = a + b;
+if (result > 5) {
+    result = 5;
+} else {
+    result *= 10;
+}
+
+//block number 12
+var a = 15;
+if (a > 0 && a < 5) {
+    console.log("Верно!");
+} else {
+    console.log("Неверно!");
+}
+
+//block number 13
+var a = 5;
+if (a == 0 || a == 2) {
+    a /= 10;
+} else {
+    a += 7;
+}
+console.log(a);
+
+//block number 14
+var a = 15;
+var b = 25;
+if (a <= 1 && b >= 3) {
+    console.log(a + b);
+} else {
+    console.log("Неверно!");
+}
+
+//block number 15
+var a = 15;
+if (a > 0 && a < 5) {
+    a++;
+} else {
+    a += 5;
+}
+console.log(a);
+
+//block number 17
+var a = 15;
+var b = 25;
+if ((a > 2 && a < 11) || (b >= 6 && b < 14)) {
+    a += 2;
+} else {
+    a += 5;
+}
+console.log(a);
+
+//block number 18
+var num = 4;
+var result;
+switch (num) {
+    case 1:
+        result = "зима";
+        break;
+    case 2:
+        result = "весна";
+        break;
+    case 3:
+        result = "лето";
+        break;
+    case 4:
+        result = "осень";
+        break;
+}
+
+//block number 19
+var lang = "ru";
+var arr = [];
+if (lang = "ru") {
+    arr = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"];
+}
+if (lang = "en") {
+    arr = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+}
+if (lang = "de") {
+    arr = ['Mn', 'Di', 'Mt', 'Dn', 'Fr', 'Sm', 'Sn'];
+}
+console.log(arr);
+
+var lang = "ru";
+var arr = [];
+switch (lang) {
+    case "ru":
+        arr = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"];
+        break;
+    case "en":
+        arr = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+        break;
+    case "de":
+        arr = ['Mn', 'Di', 'Mt', 'Dn', 'Fr', 'Sm', 'Sn'];
+        break;
+}
+console.log(arr);
+
+//block number 20
+var day = 12;
+if (day <= 10) {
+    var dekada = 1;
+}
+if (day >= 11 && day <= 20) {
+    dekada = 2;
+}
+if (day >= 21 && day <= 30) {
+    dekada = 3;
+}
+console.log(dekada);
+
+//block number 21
+var month = 4;
+if (month = 12 && month < 3) {
+    console.log("зима");
+}
+if (month > 2 && month < 6) {
+    console.log("лето");
+}
+if (month > 5 && month < 9) {
+    console.log("весна");
+}
+if (month < 8 && month < 12) {
+    console.log("осень");
+}
+
+//block number 22
+var lang = "ru";
+var day = "4";
+var result;
+if (lang === "ru") {
+    switch (day) {
+        case "1":
+            result = "Понедельник";
+            break;
+        case "2":
+            result = "Вторник";
+            break;
+        case "3":
+            result = "Среда";
+            break;
+        case "4":
+            result = "Четверг";
+            break;
+        case "5":
+            result = "Пятница";
+            break;
+        case "6":
+            result = "Суббота";
+            break;
+        case "7":
+            result = "Воскресенье";
+            break;
+    }
+}
+if (lang === "en") {
+    switch (day) {
+        case "1":
+            result = "Monday";
+            break;
+        case "2":
+            result = "Tuesday";
+            break;
+        case "3":
+            result = "Wednesday";
+            break;
+        case "4":
+            result = "Thursday";
+            break;
+        case "5":
+            result = "Friday";
+            break;
+        case "6":
+            result = "Saturday";
+            break;
+        case "7":
+            result = "Sunday";
+            break;
+    }
+}
+console.log(result);
