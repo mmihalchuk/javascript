@@ -1,0 +1,100 @@
+//block number 1
+var arr = ["joomla", "wordpress", "netcat"];
+console.log(arr);
+
+//block number 2
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+
+//block number 3
+var arr = ["html", "css", "javascript"];
+console.log(arr[2] + ", " + arr[0] + ", " + arr[1]);
+
+//block number 4
+var arr = [2, 5, 3, 9];
+var result = (arr[0] * arr[1]) + (arr[2] * arr[3]);
+console.log(result);
+
+//block number 5
+var arr1 = ["a", "b", "c", 78];
+console.log(arr1);
+var arr2 = [];
+arr2[0] = "a";
+arr2[1] = "b";
+arr2[2] = "c";
+arr2[3] = 78;
+console.log(arr2);
+
+//block number 6
+var arr = ["Я", "учу", "JavaScript", "!"];
+console.log(arr[0] + " " + arr[1] + " " + arr[2] + arr[3]);
+
+//block number 7
+var arr = ["a", "b", "c", "d", "e"];
+var test = arr[1];
+arr[1] = arr[2];
+arr[2] = test;
+console.log(arr);
+
+//block number 8
+var arr = ["a", "b", "c", "d", "e"];
+var test = [arr[4], arr[3], arr[2], arr[1], arr[0]];
+arr = test;
+console.log(arr);
+
+//block number 9
+var obj = {
+    text: "текст!",
+    1: "125",
+    key: "element"
+};
+console.log(obj.text);
+console.log(obj[1]);
+console.log(obj.key);
+
+//block number 10
+var obj = {
+    "Коля": "1000",
+    "Вася": "500",
+    "Петя": "200"
+};
+console.log(obj["Коля"]);
+console.log(obj["Петя"]);
+
+//block number 11
+var obj = {
+    1: "Понедельник",
+    2: "Вторник",
+    3: "Среда",
+    4: "Четверг",
+    5: "Пятница",
+    6: "Суббота",
+    7: "Воскресенье"
+};
+console.log(obj[3]);
+
+//block number 12
+var obj = {
+    "I": "Я",
+    "study": "учу",
+    "javascript": "javascript",
+    "sign": "!"
+}
+console.log(obj["I"] + " " + obj["study"] + " " + obj["javascript"] + obj["sign"]);
+
+//block number 13
+var arr = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(arr[1][0]);
+
+//block number 14
+var obj = {
+    js: ["jQuery", "Angular"],
+    php: "hello",
+    css: "world"
+}
+console.log(obj.js[0]);
