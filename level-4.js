@@ -4,6 +4,7 @@ while(a <= 100) {
     console.log(a);
     a++;
 }
+
 //block number 1.2
 for(var b = 0; b <= 100; b++) {
     console.log(b);
